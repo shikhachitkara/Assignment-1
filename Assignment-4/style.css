@@ -1,0 +1,312 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  box-sizing: border-box;
+  }
+
+nav{
+    display: flex;
+padding: 20px 40px;
+border-bottom:1px solid black ;
+margin-bottom: 20px;
+flex-wrap: wrap;
+}
+
+.first{
+    list-style: none;
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+    font-size: 2rem;
+}
+.jai{
+    background-color: rgb(250, 249, 248);
+    padding: 30px;
+}
+.first:hover{
+    animation: hill 0.1s  forwards;
+
+    }
+
+    @keyframes hill {
+        10%{
+            transform: translateX(3px);
+            color: whitesmoke;
+        }
+        50%{
+            transform: translateX(-3px);
+            color: rgb(30, 24, 80);
+        }75%{
+
+            color: rgb(31, 28, 8);
+        }100%{
+
+            transform:scale(1.1,1);
+            color: black;
+        }
+
+    }
+
+ul{
+    margin-left: 40px;
+    display: flex;
+    margin-left: auto;
+    list-style: none;
+    justify-content: space-around;
+align-items:center ;
+width: 600px;
+flex-wrap: wrap;
+}
+.active{
+    color: rgb(126, 34, 34);
+}
+ul a{
+    text-decoration: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+ul li:hover,a:hover{
+    color: white;
+    cursor: pointer;
+    animation: hill 1.5s forwards;
+}
+
+section{
+    margin-top: 20px;
+text-align: center;
+height: 550px;
+box-shadow: 2px 2px 8px rgba(0, 0,0, 1);
+border-radius: 10px;
+width: 1200px;
+margin: auto;
+box-shadow: 3px 3px 10px black;
+background-image: url("https://i.pinimg.com/236x/51/7b/86/517b86a13906b260760e306677bf350b.jpg");
+background-position: cover;
+background-repeat: no-repeat;
+background-size: cover;
+animation: key 10s infinite forwards; 
+}
+
+
+
+@keyframes key {
+    25%{
+
+background-image: url("https://www.kreeva.com/blog/wp-content/uploads/2020/08/pant-sytle-suit-min.jpeg");
+    }
+    50%{
+background-image: url("https://g3fashion.cdn.imgeng.in/blog/wp-content/uploads/2019/03/peplum-style-salwar-suit-e1596458662128.jpg") ;
+    }
+    75%{
+        background-image: url("https://www.wholesalesalwar.com/blog/wp-content/uploads/2021/01/stylish-cream-color-patiala-suit-27218-800x1100-1.jpg") ;
+    }
+
+    100%{
+    background-image: url("https://samyakkimg.gumlet.io/shopbycategory/05_1.jpg?w=300&dpr=2.6");   
+    }
+}
+.offer h1{
+    text-align: center;
+margin-top: 10px;
+margin-bottom: -30px;
+/* padding: 10px; */
+animation: yeh 1.5s infinite normal backwards;
+}
+@keyframes yeh {
+
+50%{
+    transform: scale(1.2,1.2) ;
+    color: red;
+    font-weight: bolder;
+/* text-shadow: ; */
+}
+}
+nav{
+    background-color: burlywood;
+    box-shadow: 2px 2px 8px rgba(0, 0,0, 1);
+}
+nav::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height:60px;
+
+    /* height: 100%; */
+    z-index: -1;
+    background-color: rgb(75, 67, 67);
+}
+
+ul li a{
+
+font-family:Arial, Helvetica, sans-serif;
+}
+.products{
+    margin: 60px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around ;
+padding: 20px;
+}
+.item{
+border: 1px solid black;
+display: flex;
+flex-direction: column;
+align-items: center;
+align-content: space-between;
+margin-bottom: 10px;
+text-align: center;
+padding: 10px;
+margin: 20px;
+height: 400px;
+width: 400px;
+flex-wrap: wrap;
+-color: burlywood;
+    box-shadow: 2px 2px 8px rgba(0, 0,0, 1);
+}
+.item:hover{
+    transform: scale(1.08,1.07);
+    cursor: pointer;
+}
+
+.item img{   box-shadow: 2px 2px 8px rgba(0, 0,0, 1);
+height: 200px;
+width: 250px;
+margin: 20px;
+
+}
+.contact{
+    margin: 30px;
+    display: flex;
+justify-content: center;
+}
+.main{
+    padding: 30px;
+    /* border:2px solid black; */
+    /* height: 400px; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* width: 800px; */
+    margin: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0,0, 1);
+    background-color:rgb(16, 113, 240);
+    /* background-color: coral; */
+}
+form {
+display: flex;
+/* flex-wrap: wrap; */
+flex-direction: column;
+    margin-top: 20px;
+    box-shadow: 2px 2px 8px rgba(0, 0,0, 1);
+    /* justify-content: space-between; */
+font-size: 1.5rem;
+padding: 40px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+background-color:rgb(89, 203, 223);
+padding: 30px;
+}
+label{
+    text-shadow:.2px .2px 8px rgb(104, 53, 35)
+}
+input{
+    font-size: 1.5rem;
+    border-radius: 10px;
+    background-color: rgb(223, 233, 220);
+    padding: 10px;
+    /* width: 800px; */
+    padding-right: 90px;
+    padding-left: 20px;
+    color: black;
+    border:none;
+    margin-top: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0,0, 1);
+}
+footer{
+    background-color: black;
+}
+
+footer p{
+text-align: center;
+color: white;
+padding: 15px 10px;
+font-size: 1.3rem;
+}
+@media (max-width:900px) {
+    section{
+        width: 500px;
+    }    
+    .products{
+
+    width:100% ;}
+
+
+
+    }
+    @media (max-width:650px) {
+        section{
+            width: 400px;
+        }    
+        .products{
+
+        width:100% ;}
+        .item{
+            width: 100%;
+        }
+.main{
+    margin: 1px;
+}
+.item img{ height: 200px;
+    width: 80%;
+    margin: 5px;
+
+    }
+        }
+    @media (max-width:450px) {
+        section{
+            width: 300px;
+            height: 400px;
+        }    
+        .products{
+
+        width:100% ;}
+        .item{
+            width: 100%;
+        }
+        .item img{ height: 200px;
+            width: 80%;
+            margin: 5px;
+
+            }
+
+.main{
+    margin: 0px;
+}
+.first{
+    margin: auto;
+text-align: center;
+font-size: 2.5rem;
+}
+
+ul{
+    flex-direction: column;
+    font-size: 2rem;
+
+}
+
+        }
+        button{
+            font-size: 1.5rem;padding: 12px 40px;background-color: rgb(187, 4, 13);color: wheat;
+            border: none;
+            border-radius: 10px;
+        margin: auto;
+        }
+        button:hover{
+            color: red;
+            cursor: pointer;
+            background-color: rgb(232, 248, 6);
+        }
+
+
