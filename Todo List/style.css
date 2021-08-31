@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    color: white;
+  
+}
+      .head{
+          font-size: 3rem;
+      }
+       .form-control{
+           display: inline-block !important;
+           width: 80%;
+           font-size: 1.1rem;
+           
+           color: rgb(95, 7, 7);
+           font-weight: 700;
+       }
+       #gg{
+    border: 2px solid black;
+    box-shadow: 0.5px 0.5px 10px rgba(0, 0, 0, 0.5);       
+    }
+    .main{
+        background-color: rgb(13, 13, 14);
+      min-height: 100vh;
+    }
+.jii{
+    margin-top:20px ;
+   width: 30%;
+    min-height: 80vh;
+    border:3px solid black;
+    box-shadow: 0.5px 0.5px 10px rgb(255, 251, 251);   
+    border-radius: 18px;
+
+padding-bottom: 20px;
+    /* width: 70%; */
+}
+
+.order{
+    min-height: 480px;
+   
+    box-shadow: 1px 1px 10px rgb(189, 13, 13); 
+    border-radius: 16px;
+}
+
+.ul{
+    padding: 20px;
+margin-top: 10px;
+font-size: 1.5rem;
+text-align: start;
+list-style: none;
+min-height: 90%;
+}
+.list{
+    text-transform: capitalize;
+list-style: none;
+border-radius: 10px;
+text-align: start;
+box-shadow: 0.5px 0.5px 10px rgb(233, 236, 7);  
+
+font-size: 1.6rem;
+font-weight: 770;
+margin: 11px 0px;
+padding: 12px 2px;
+}
+.hel{
+float: right;
+padding-right: 5px;  
+}
+@media (max-width:1190px) {
+    .jii{
+width:50%
+    }
+    .list{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width:890px) {
+    .jii{
+width:55%
+    }
+    .list{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width:640px) {
+    .jii{
+width:85%
+    }
+    .list{
+        font-size: 1rem;
+    }
+}
+@media (max-width:490px) {
+    .jii{
+width:95%
+    }
+    .list{
+        font-size: 1rem;
+    }
+}
+@media (max-width:380px) {
+    .jii{
+width:110%;
+    
+margin: 0px -10px;}
+    .list{
+border-radius: 10px;
+text-align: start;
+box-shadow: 0.5px 0.5px 10px rgba(0, 0, 0, 1);  
+background-color: rgb(95, 175, 206);
+font-size: 1rem;
+font-weight: 700;
+margin: 11px -10px;
+padding: 12px 2px;
+    }
+    .order{
+    min-height: 480px;
+    margin: 0px -15px;
+}
+.hel{
+    font-size: 1.3rem;
+}
+
+}
+
+.glowing{
+    /* border: 3px solid  red !important; */
+    animation: gloww 1s;
+    border: 3px solid rgb(117, 6, 6) !important;
+font-size:1.3rem !important ;
+}
+
+@keyframes gloww {
+   0%{
+        border: 3px solid  red ;
+    transform: scale(1,0);
+      
+    }
+    100%{
+        border: 3px solid  black!important;
+    }
+
+}
+i{
+    cursor: pointer;
+}
+t:hover{
+    font-size: 1.5rem;
+}
+#save{
+    display: none;
+}
